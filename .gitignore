@@ -1,52 +1,48 @@
-# Prerequisites
-*.d
-
-# Object files
+.config
 *.o
-*.ko
-*.obj
-*.elf
+*.pyc
 
-# Linker output
-*.ilk
-*.map
-*.exp
+# gtags
+GTAGS
+GRTAGS
+GPATH
 
-# Precompiled Headers
-*.gch
-*.pch
+# emacs
+.dir-locals.el
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
+# emacs temp file suffixes
+*~
+.#*
+\#*#
+# MacOS directory files
+.DS_Store
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
+# eclipse setting
+.settings
 
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
+# Example project files
+examples/**/sdkconfig
+examples/**/sdkconfig.old
+examples/**/build
 
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
+# Doc build artifacts
+docs/*/_build/
+docs/*/doxygen-warning-log.txt
+docs/*/sphinx-warning-log.txt
+docs/*/sphinx-warning-log-sanitized.txt
+docs/*/xml/
+docs/*/xml_in/
+docs/*/man/
+docs/*/doxygen_sqlite3.db
 
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# Downloaded font files
+docs/_static/DejaVuSans.ttf
+docs/_static/NotoSansSC-Regular.otf
+
+# gcov coverage reports
+*.gcda
+*.gcno
+coverage.info
+coverage_report/
+
+.vscode
